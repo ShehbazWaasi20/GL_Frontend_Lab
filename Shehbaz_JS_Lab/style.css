@@ -1,0 +1,60 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: lightslategray;
+    border: 2px solid;
+    margin: 0px auto;
+    padding: 10px 30px 30px 30px;
+}
+
+.container h1{
+    font-size: 40px;
+    background-color: green;
+    color: white;
+    padding: 2px 0px;
+    text-align: center;
+}
+
+.container #question {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+#question::before{
+    content: "Q. ";
+}
+
+#btn0, #btn1,#btn2,#btn3{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px;
+}
+
+#btn0:hover, #btn1:hover,#btn2:hover,#btn3:hover{
+
+    background-color: green;
+    
+}
+
+#progress{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+#quiz h2{
+
+    color: blue;
+    text-align: center;
+    padding-top: 100px;
+}
+
